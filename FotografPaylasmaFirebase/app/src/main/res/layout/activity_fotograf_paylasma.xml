@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.FotografPaylasmaActivity"
+    android:weightSum="10"
+    android:background="@color/black">
+
+    <ImageView
+
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:onClick="gorselSec"
+        app:srcCompat="@drawable/fotologo3"
+        />
+
+    <EditText
+        android:background="@drawable/et_style"
+        android:id="@+id/yorumText"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="20dp"
+        android:textColor="@color/white"
+        android:layout_weight="0.8"
+        android:hint="Yorumunuzu Giriniz!"
+        android:inputType="textPersonName"
+        android:textColorHint="#88FBF6F6"
+        />
+
+    <Button
+        android:textColorHint="#88FBF6F6"
+        android:id="@+id/button2"
+        android:backgroundTint="#3A3A3A"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textColor="@color/white"
+        android:layout_weight="1"
+        android:layout_margin="20dp"
+        android:onClick="paylas"
+        android:text="Paylaş"
+        />
+
+</LinearLayout>
