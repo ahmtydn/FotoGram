@@ -83,7 +83,7 @@ class GuncelKonumActivity : AppCompatActivity(), OnMapReadyCallback {
                 arrayOf(Manifest.permission.ACCESS_FINE_LOCATION),
                 1
             )
-
+            
         } else {
             //izin zaten verilmiş
             locationManager.requestLocationUpdates(
